@@ -1,0 +1,24 @@
+vim.opt.number = true                                       -- show line number
+vim.opt.relativenumber = true                               -- line number relative to current line
+vim.opt.mouse = "a"                                         -- mouse status -- "active"
+vim.opt.showmode = false                                    -- remove -INSERT- from cmdline
+-- vim.opt.cursorline = true                                -- hightlight the current line
+vim.opt.tabstop = 4                                         -- tab number of spaces
+vim.opt.softtabstop = 4                                     -- 
+vim.opt.shiftwidth = 4                                      --
+vim.opt.expandtab = true                                    -- convert tab to spaces
+vim.opt.smartindent = true                                  -- smart indentation
+-- vim.opt.wrap = false                                     -- make one long line
+vim.opt.swapfile = false                                    -- create a swapfile
+vim.opt.backup = false                                      -- create a backup
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"      -- where to save the undofile
+vim.opt.undofile = true                                     -- create a undo file
+vim.opt.hlsearch = false                                    -- hightlight previous searchs
+vim.opt.incsearch = true                                    -- increased hightlight when searching
+vim.opt.termguicolors = true                                -- cmd colors
+vim.opt.scrolloff = 8                                       -- minimum lines over or under when scrolling
+vim.opt.signcolumn = "yes"                                  -- show signcolumn always
+vim.opt.updatetime = 50                                     -- time to update (4000ms default)
+-- vim.opt.colorcolumn = "80"                               -- color column at "80" characters
+
+vim.g.mapleader = " "                                       -- leader setup for remapping
